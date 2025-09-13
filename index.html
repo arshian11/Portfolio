@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arsh Raza | Portfolio</title>
+    <meta name="description" content="Arsh Raza - Data Scientist & Machine Learning Engineer specializing in cosmological parameter prediction and deep learning">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">AR</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <div class="nav-link">
+                    <a href="#home">Home</a>
+                </div>
+                <div class="nav-link">
+                    <a href="#about">About</a>
+                </div>
+                <div class="nav-link">
+                    <a href="#projects">Projects</a>
+                </div>
+                <div class="nav-link">
+                    <a href="#experience">Experience</a>
+                </div>
+                <div class="nav-link">
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="greeting">Hi, I'm</span>
+                        <span class="name">Arsh Raza</span>
+                    </h1>
+                    <p class="hero-description">
+                        I'm a <strong>Data Scientist</strong> and <strong>Machine Learning Engineer</strong>, specializing in deep learning and cosmological parameter prediction. Research enthusiast exploring cutting-edge AI applications in astrophysics and real-world innovations.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">Get in touch</a>
+                        <a href="#" class="btn btn-secondary" id="download-resume">
+                            <i class="fas fa-download"></i>
+                            Download Resume
+                        </a>
+                    </div>
+                </div>
+                <div class="scroll-indicator">
+                    <span>Scroll to explore</span>
+                    <div class="scroll-arrow">
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Languages & Tools</h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">R</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Git</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Frameworks & Libraries</h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">PyTorch</span>
+                        <span class="skill-tag">TensorFlow</span>
+                        <span class="skill-tag">Scikit-learn</span>
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">NumPy</span>
+                        <span class="skill-tag">Matplotlib</span>
+                        <span class="skill-tag">OpenCV</span>
+                        <span class="skill-tag">Flask</span>
+                        <span class="skill-tag">Streamlit</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Cloud & DevOps</h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">MLflow</span>
+                        <span class="skill-tag">Jupyter</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="achievements">
+                <div class="achievement-item">
+                    <div class="achievement-icon">🎯</div>
+                    <div class="achievement-text">
+                        <h4>Deep Learning Research</h4>
+                        <p>Specialized in cosmological parameter prediction using CNNs and regression models</p>
+                    </div>
+                </div>
+                
+                <div class="achievement-item">
+                    <div class="achievement-icon">🚀</div>
+                    <div class="achievement-text">
+                        <h4>Machine Learning Innovation</h4>
+                        <p>Developed hybrid models combining image processing with power spectra analysis</p>
+                    </div>
+                </div>
+                
+                <div class="achievement-item">
+                    <div class="achievement-icon">📊</div>
+                    <div class="achievement-text">
+                        <h4>Data Science Excellence</h4>
+                        <p>Expert in statistical modeling and advanced analytics for complex datasets</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            
+            <div class="projects-grid">
+                <div class="project-card" data-year="2024">
+                    <div class="project-header">
+                        <h3 class="project-title">Cosmological Parameter Prediction</h3>
+                        <span class="project-year">2024</span>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-description">
+                            Research project combining CNNs for image processing with regression models (Random Forest) to predict cosmological parameters (Ωm and S8). Developed hybrid architecture for analyzing both visual cosmological data and power spectra.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">PyTorch</span>
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Scikit-learn</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-year="2024">
+                    <div class="project-header">
+                        <h3 class="project-title">Deep Learning Image Classification</h3>
+                        <span class="project-year">2024</span>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-description">
+                            Advanced computer vision project implementing state-of-the-art CNN architectures for multi-class image classification. Achieved 95%+ accuracy through data augmentation and transfer learning techniques.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">PyTorch</span>
+                            <span class="tech-tag">OpenCV</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Matplotlib</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-year="2023">
+                    <div class="project-header">
+                        <h3 class="project-title">Time Series Forecasting Platform</h3>
+                        <span class="project-year">2023</span>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-description">
+                            End-to-end machine learning platform for time series analysis and forecasting. Built with interactive dashboards, automated model selection, and real-time prediction capabilities.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Streamlit</span>
+                            <span class="tech-tag">Pandas</span>
+                            <span class="tech-tag">Prophet</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-year="2023">
+                    <div class="project-header">
+                        <h3 class="project-title">Natural Language Processing Suite</h3>
+                        <span class="project-year">2023</span>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-description">
+                            Comprehensive NLP toolkit featuring sentiment analysis, text classification, and named entity recognition. Implemented transformer-based models with custom fine-tuning capabilities.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Transformers</span>
+                            <span class="tech-tag">NLTK</span>
+                            <span class="tech-tag">Flask</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-year="2023">
+                    <div class="project-header">
+                        <h3 class="project-title">Data Analytics Dashboard</h3>
+                        <span class="project-year">2023</span>
+                    </div>
+                    <div class="project-content">
+                        <p class="project-description">
+                            Interactive business intelligence dashboard with real-time data visualization, statistical analysis, and predictive modeling capabilities. Designed for scalable data processing workflows.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Plotly</span>
+                            <span class="tech-tag">SQL</span>
+                            <span class="tech-tag">AWS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Career Journey</h2>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2024 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Machine Learning Research</h3>
+                        <h4>Independent Research</h4>
+                        <p>Conducting advanced research in cosmological parameter prediction using hybrid CNN-regression models. Developing innovative approaches to combine image processing with statistical modeling for astrophysical applications.</p>
+                        <ul>
+                            <li>→ Designed and implemented hybrid ML architectures for cosmological data analysis</li>
+                            <li>→ Specialized in CNN optimization for image feature extraction</li>
+                            <li>→ Integrated regression models for power spectra analysis</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">2023 - 2024</div>
+                    <div class="timeline-content">
+                        <h3>Data Science Specialist</h3>
+                        <h4>Freelance Projects</h4>
+                        <p>Led multiple data science projects spanning computer vision, NLP, and predictive analytics. Delivered end-to-end solutions from data preprocessing to model deployment.</p>
+                        <ul>
+                            <li>→ Developed machine learning models with 90%+ accuracy</li>
+                            <li>→ Built interactive data visualization dashboards</li>
+                            <li>→ Implemented automated ML pipelines and workflows</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">2022 - 2023</div>
+                    <div class="timeline-content">
+                        <h3>Python Developer</h3>
+                        <h4>Various Projects</h4>
+                        <p>Focused on building robust data processing applications and web development projects using Python ecosystem. Gained expertise in full-stack development and database management.</p>
+                        <ul>
+                            <li>→ Built scalable web applications using Flask and Django</li>
+                            <li>→ Implemented data processing pipelines with pandas and NumPy</li>
+                            <li>→ Designed database schemas and optimized queries</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p class="contact-description">
+                        I'm always open to discussing new opportunities, collaborating on interesting projects, or just having a conversation about data science and machine learning.
+                    </p>
+                    
+                    <div class="contact-links">
+                        <a href="mailto:marshraza28@gmail.com" class="contact-link">
+                            <i class="fas fa-envelope"></i>
+                            <span>marshraza28@gmail.com</span>
+                        </a>
+                        
+                        <a href="https://linkedin.com/in/arsh-raza" class="contact-link" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn Profile</span>
+                        </a>
+                        
+                        <a href="https://github.com/arshian11" class="contact-link" target="_blank">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub Portfolio</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="6" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Arsh Raza. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="https://github.com/arshian11" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/arsh-raza" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:marshraza28@gmail.com">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
